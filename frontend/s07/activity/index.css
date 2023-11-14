@@ -1,0 +1,126 @@
+/* CSS Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+
+
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*Rule set for the nav elements*/
+
+nav {
+	/*Shorthand Property*/
+	/*Applied padding to all sides*/
+	/*Value is 12.8 pixels based on the root element*/
+	/*Padding creates space between the ul tag and the nav element*/
+	padding: 0.8rem;
+	margin-bottom: 2rem;
+	border-bottom: 1px solid black;
+	list-style-type: none;
+}
+
+nav .nav, nav .nav-logo {
+	margin: 0.5rem;
+	display: inline;
+}
+
+
+nav ul {
+	margin-left: auto;
+}
+
+
+#intro{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+	/*padding: 2rem 10% 3rem;*/
+	text-align: center;
+}
+
+
+/*Rule set for the elements with header class*/
+.header{
+	text-align: center;
+}
+
+#intro h2, #intro p{
+	margin: 1rem;
+}
+
+#intro button {
+	padding: 1rem;
+	color: white;
+	font-weight: bold;
+	font-size: 1rem;
+	background-color: #c2195b;
+	border-radius: 25px;
+
+}
+
+#succeed-info {
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 2rem;
+	padding-bottom: 3rem;
+}
+
+#succeed-info h2 {
+	/*creates space between the header and the card section*/
+	margin-bottom: 1rem;
+
+}
+
+#succeed-info h3 {
+	text-align: center;
+	margin-bottom: 1rem;
+}
+
+#succeed-info .card {
+	/*Allows the card elements to appear side by side*/
+	display: inline-block;
+	/*Aligns elements with tallest element in the line*/
+	/*Used with the "inline-block" value*/
+	vertical-align: top;
+	/*Allows for cards to have equal height that adjusts with the content*/
+	min-height: 175px;
+	width: 30%;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+
+
+}
+
+
+#pre-footer {
+	padding: 1rem;
+	color: white;
+	background-color: #002540;
+}
+
+#pre-footer .card{
+	display: inline-block;
+	width: 20%;
+}
+
+#pre-footer .card > h3, #pre-footer .card > p{
+	margin-bottom: 0.3rem;
+	margin-top: 0.3rem;
+}
+
+footer {
+	padding: 0.7rem;
+}
+
+footer span {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}

@@ -1,0 +1,154 @@
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+
+#navbar {
+	background: #765C3D !important;
+}
+
+#landing {
+	background:  
+		linear-gradient(rgba(0, 0, 0, 0.59), rgba(0, 0, 0, 0.59)),
+		url("./images/landing-bg.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#landing-title {
+	color: #FFF;
+	font-family: Montserrat;
+	/*font-size: 50px;*/
+	font-style: normal;
+	font-weight: 600;
+	line-height: 72px; /* 112.5% */
+	letter-spacing: -1.28px;
+}
+#landing-subtitle {
+	color: #FFF;
+	font-family: Montserrat;
+	/*font-size: 20px;*/
+	font-style: normal;
+	font-weight: 400;
+	line-height: 30px; /* 125% */
+
+}
+
+#landing-button {
+	border-radius: 999px;
+	background: #B59066;
+	color: white;
+}
+
+
+
+#navbar a {
+	color: #F2D2AE;
+	text-align: center;
+	font-family: Montserrat;
+	/*font-size: 18px;*/
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.section-title{
+	color: #765C3D;
+	font-family: Montserrat;
+	/*font-size: 35px;*/
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+h1 + p{
+	color: #765C3D;
+	font-family: Montserrat;
+	/*font-size: 20px;*/
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.carousel .carousel-indicators button {
+    width: 10px;
+   height: 10px;
+   border-radius: 100%;
+ }
+
+ #contact {
+ 	background: #FFF2E4;
+ }
+
+ #contact-title {
+ 	color: #765C3D;
+ 	font-family: Montserrat;
+ 	font-style: normal;
+ 	font-weight: 600;
+ 	line-height: normal;
+ }
+
+ #contact p {
+ 	color: #765C3D;
+ 	font-family: Montserrat;
+ 	font-style: normal;
+ 	font-weight: 400;
+ 	line-height: normal;
+ }
+
+ #contact label {
+ 	color: #B59066;
+ 	font-family: Montserrat;
+ 	font-style: normal;
+ 	font-weight: 600;
+ 	line-height: normal;
+ }
+
+ #contact input {
+ 	border: 1px solid #B59066;
+ 	background: #FFF;
+ 	color: #765C3D;
+ 	font-family: Montserrat;
+ 	font-style: normal;
+ 	font-weight: 600;
+ 	line-height: normal;
+ }
+
+ #contact textarea {
+ 	border: 1px solid #B59066;
+ 	background: #FFF;
+ 	color: #765C3D;
+ 	font-family: Montserrat;
+ 	font-style: normal;
+ 	font-weight: 600;
+ 	line-height: normal;
+ }
+
+
+ #base {
+ 	display: flex;
+ 	padding: 12px 32px;
+ 	justify-content: center;
+ 	align-items: center;
+ 	gap: 8px;
+
+ 	border-radius: 999px;
+ 	background: #B59066;
+
+ 	color: var(--button-text-button-primary-text, #FFF);
+ 	text-align: center;
+ 	font-family: Montserrat;
+ 	font-size: 20px;
+ 	font-style: normal;
+ 	font-weight: 600;
+ 	line-height: 24px; /* 120% */
+ }
+
+ #footer {
+ 	color: #FFF2E4;
+ 	text-align: center;
+ 	font-family: Montserrat;
+ 	font-style: normal;
+ 	font-weight: 500;
+ 	line-height: normal;
+ 	background: #765C3D !important;
+ }
